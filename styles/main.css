@@ -1,1 +1,51 @@
-<link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
+body {
+    background-color: rgb(197, 117, 117);
+    font-family: 'Coda Caption', sans-serif;
+    text-align: center;
+}
+
+
+/* .header {
+    padding-top: 50px;
+    scroll-padding-bottom: 50px;
+    color: whitesmoke;
+    text-align: center;
+} */
+
+h1 {
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+h2 {
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+p {
+    color:rgb(129, 75, 75);
+    text-align: justify;
+}
+
+
+
+/*ICON-BAR CODE from .icon-bar -> .icon-bar a:hover */
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
